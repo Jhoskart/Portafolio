@@ -4,19 +4,23 @@ import IMG1 from '../../assets/PsicoApp.jpg';
 import IMG2 from '../../assets/pokemonapp.jpg';
 import IMG3 from '../../assets/movieapp.jpg';
 import IMG4 from '../../assets/weatherapp.jpg';
+import { useTranslation } from 'react-i18next'
+
 
 const Portfolio = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     <section id='portfolio'>
-      <h5>Mis proyectos recientes</h5>
-      <h2>Portafolio</h2>
+      <h5>{t("portfolio.my")}</h5>
+      <h2>{t("portfolio.port")}</h2>
 
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG1} alt="PsicoApp" />
           </div>
-          <h3>Proyecto Psicoapp</h3>
+          <h3>{t("portfolio.pro1")}</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jhoskart/PF-psicoApp" className='btn ' target='_blank'>Github</a>
             <a href="https://psico-app.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>
@@ -26,7 +30,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image grande">
             <img src={IMG2} alt="pokemonapp" className='grande'/>
           </div>
-          <h3>Proyecto Pokemon</h3>
+          <h3>{t("portfolio.pro2")}</h3>
           <div className='portfolio__item-cta '>
             <a href="https://github.com/Jhoskart/Project-Pokemon" className='btn ' target='_blank'>Github</a>
             <a href="https://project-pokemon-ten.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>

@@ -1,42 +1,46 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+import { useTranslation } from 'react-i18next'
+
 
 const Services = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     <section id='services'>
-      <h5>Te puedo ofrecer</h5>
-      <h2>Servicios</h2>
+      <h5>{t("services.ofre")}</h5>
+      <h2>{t("services.serv")}</h2>
 
       <div className="container services__container">
         <article className='service'>
           <div className='service__head'>
-            <h3>Diseño</h3>
+            <h3>{t("services.title")}</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Creacion de paginas web con un estilo moderno y funcional.
+                {t("services.serv1")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Diseño responsivo, que se adapte a cualquier dispositivo.
+                {t("services.serv2")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Diseño de interfaces de usuario.
+                {t("services.serv3")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Animaciones y efectos en 2D
+                {t("services.serv4")}
               </p>
             </li>
           </ul>
@@ -46,38 +50,38 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Desarrollo Web</h3>
+            <h3>{t("services.title2")}</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Desarrollo de 'Single Page Applications' (SPA) con React y Redux.
+                {t("services.serv5")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Desarrollo de aplicaciones con NodeJS y Express.
+                {t("services.serv6")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Aplicaciones que sean escalables y sean multiplataforma.
+                {t("services.serv7")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Algoritmos de búsqueda y almacenamiento de datos con Sequelize y PostgreSQL 
+                {t("services.serv8")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Base de datos relacionales con MySQL y PostgreSQL. 
+                {t("services.serv9")}
               </p>
             </li>
           </ul>
@@ -87,38 +91,38 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Creacion de contenido</h3>
+            <h3>{t("services.title3")}</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Creacion de contenido para redes sociales.
+                {t("services.serv10")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Creacion de contenido para blogs.
+                {t("services.serv11")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Creacion de contenido para paginas de noticias.
+                {t("services.serv12")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Creacion de contenido para paginas de productos.
+                {t("services.serv13")}
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Creacion de contenido para paginas de servicios.
+                {t("services.serv14")}
               </p>
             </li>
           </ul>

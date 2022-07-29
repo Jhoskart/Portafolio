@@ -1,0 +1,80 @@
+{
+    "header": {
+        "saludo": "Hello I'm",
+        "titulo": "Fullstack Developer",
+        "cv": "Download CV",
+        "accion": "Let's talk",
+        "bajar": "Scroll down"
+    },
+    "about": {
+        "conoceme": "Get To Know",
+        "acerca": "About me",
+        "exp": "Experience",
+        "cuant": "1+ years",
+        "idioma": "English",
+        "nivel": "B1 Intermediate",
+        "pro": "Projects",
+        "cuantos": "5+ completed",
+        "textolargo": "I am passionate about technology and the IT world💻, enthusiastic about the different applicable learning methodologies for personal and professional growth, and about promoting the development of creativity as a work tool.🤹 I love developing both at the front and at the the back, work as a team and seek continuous improvement.",
+        "accion": "Let's talk"
+    },
+    "tecnologies":{
+        "habs": "What Skills I Have",
+        "tech": "My Experience",
+        "front": "Frontend Development",
+        "back": "Backend Development"
+    },
+    "services": {
+        "ofre": "What I Offer",
+        "serv": "Services",
+        "title": "Design",
+        "serv1": "Creation of web pages with a modern and functional style",
+        "serv2": "Responsive design that adapts to any device",
+        "serv3": "User interface design",
+        "serv4": "2D animations and effects",
+        "title2": "Web development",
+        "serv5": "Development of 'Single Page Applications' with React and Redux",
+        "serv6": "Application development with NodeJS and Express.",
+        "serv7": "Applications that are scalable and cross-platform",
+        "serv8": "Search algorithms and data storage with Sequelize and PostgreSQL",
+        "serv9": "Relational database with MySQl and PostgreSQL",
+        "title3": "Content creation",
+        "serv10": "Creation of content for social networks",
+        "serv11": "Creation of content for blogs",
+        "serv12": "Content creation for web applications",
+        "serv13": "Content creation for mobile applications",
+        "serv14": "Content creation for service pages"
+    },
+    "portfolio": {
+        "my": "My Recent Work",
+        "port": "Portfolio",
+        "pro1": "Psicoapp Project",
+        "pro2": "Pokemon Project"
+    },
+    "references":{
+        "review": "Reviews from Teammates",
+        "recom": "Testimonials",
+        "text1": "Jhoskar is an excellent colleague, he knows how to function in the Backend and in the Frontend, he is very knowledgeable in the logic of both sectors. After sharing a team with him, I can say that he manages good communication within the team, he likes to contribute ideas, investigate new technologies and be proactive.",
+        "text2": "Jhoskar is an excellent programmer, he has an amazing ability to solve problems and explain them simply and quickly. At the same time, it encourages the construction of good practices in its environment. He highlighted his ability to work as a team and provide help to those who need it, with his characteristic humility, humanity and respect.",
+        "text3": "Jhoskar was a person committed to the project, seeking to give the best of himself. He knows how to work as a team, collaborating, communicating his ideas well and always showing empathy with his colleagues. It was very helpful. with your initiative, for the team, both in the frontend and in the backend. a pleasure to work with him."
+    },
+    "contact":{
+        "hab": "Let's Talk",
+        "contact": "Contact me",
+        "msg1": "Send me a email",
+        "msg2": "Send me a message",
+        "msg3": "Let's talk by WhatsApp",
+        "text1": "Fullname",
+        "text2": "Email",
+        "text3": "Message",
+        "text4": "Send"
+    },
+    "footer":{
+        "link1": "About me",
+        "link2": "Experience",
+        "link3": "Portfolio",
+        "link4": "Testimonials",
+        "link5": "Contact",
+        "copy": "© 2020 Jhoskar. All rights reserved."
+    }
+}

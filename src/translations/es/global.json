@@ -1,0 +1,80 @@
+{
+    "header": {
+        "saludo": "Hola, me llamo",
+        "titulo": "Desarrollador Fullstack",
+        "cv": "Descargar CV",
+        "accion": "Hablemos",
+        "bajar": "Ir abajo"
+    },
+    "about": {
+        "conoceme": "Conoce un poco",
+        "acerca": "Acerca de mí",
+        "exp": "Experiencia",
+        "cuant": "1+ años",
+        "idioma": "Inglés",
+        "nivel": "B1 Intermedio",
+        "pro": "Proyectos",
+        "cuantos": "5+ proyectos completados",
+        "textolargo": "Soy un apasionado por la tecnologia y el mundo IT💻, entusiasta de las diferentes metodologias de aprendizaje aplicables para el crecimiento personal y profesional, y de impulsar el desarrollo de la creatividad como herramienta de trabajo.🤹 Me encanta desarrollar tanto en el front como en el back, trabajar en equipo y buscar la mejora continua.",
+        "accion": "Hablemos"
+    },
+    "tecnologies":{
+        "habs": "Habilidades",
+        "tech": "Tecnologías",
+        "front": "Desarrollo Frontend",
+        "back": "Desarrollo Backend"
+    },
+    "services": {
+        "ofre": "Te puedo ofrecer",
+        "serv": "Servicios",
+        "title": "Diseño",
+        "serv1": "Creacion de paginas webn con un estilo moderno y funcional",
+        "serv2": "Diseño responsivo, que se adapte a cualquier dispositivo",
+        "serv3": "Diseño de interfaces de usuario",
+        "serv4": "Animaciones y efectos 2D",
+        "title2": "Desarrollo Web",
+        "serv5": "Desarrollo de 'Single Page Applications' con React y Redux",
+        "serv6": "Desarrollo de aplicaciones con NodeJS y Express",
+        "serv7": "Aplicaciones que sean escalables y sean multiplataforma",
+        "serv8": "Algoritmos de busqueda de almacenamiento de datos con Sequelize y PostgreSQL",
+        "serv9": "Base de datos relacionales con MySQl y PostgreSQL",
+        "title3": "Creacion de contenido",
+        "serv10": "Creacion de contenido para redes sociales",
+        "serv11": "Creacion de contenido para blogs",
+        "serv12": "Creacion de contenido para aplicaciones web",
+        "serv13": "Creacion de contenido para aplicaciones móviles",
+        "serv14": "Creacion de contenido para paginas de servicios"
+    },
+    "portfolio": {
+        "my": "Mis proyectos recientes",
+        "port": "Portafolio",
+        "pro1": "Proyecto Psicoapp",
+        "pro2": "Proyecto Pokemon"
+    },
+    "references":{
+        "review": "Referencias",
+        "recom": "Recomendaciones",
+        "text1": "Jhoskar es un excelente compañero, sabe desenvolverse en el Backend y en el Frontend, conoce muy en la lógica de ambos sectores. Luego de compartir equipo con él puedo decir que maneja una buena comunicación dentro del equipo, le gusta aportar ideas, investigar nuevas tecnologías y ser pro-activo",
+        "text2": "Jhoskar es un excelente programador, tiene una increíble capacidad para resolver problemas y explicarlos sencillamente y con rapidez. Al mismo tiempo fomenta la construcción de buenas prácticas en su entorno. Destacó su habilidad de trabajar en equipo y brindar ayuda a quien lo necesite, con su humildad, humanidad y respeto característicos.",
+        "text3": "Jhoskar fue una persona comprometida con el proyecto buscando dar lo mejor de sí. Sabe trabajar en equipo, colaborando, comunicando bien sus ideas y siempre mostrándose empático con sus compañeros. Fue de mucho aporte. con su iniciativa, para el equipo, tanto en el frontend como en el backend. un gusto trabajar con él."
+    },
+    "contact":{
+        "hab": "Hablemos un rato",
+        "contact": "Contactame",
+        "msg1": "Enviame un correo",
+        "msg2": "Enviame un mensaje",
+        "msg3": "Hablemos por WhatsApp",
+        "text1": "Tu Nombre Completo",
+        "text2": "Tu Email",
+        "text3": "Tu Mensaje",
+        "text4": "Enviame un mensaje"
+    },
+    "footer":{
+        "link1": "Acerca de mí",
+        "link2": "Experiencia",
+        "link3": "Portafolio",
+        "link4": "Recomendaciones",
+        "link5": "Contacto",
+        "copy": "© Desarrollado por JhoskarT, todos los derechos reservados."
+    }
+}

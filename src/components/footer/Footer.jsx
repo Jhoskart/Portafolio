@@ -4,19 +4,23 @@ import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
 import IMG from '../../assets/logote.webp'
+import { useTranslation } from 'react-i18next'
+
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     <footer>
       <img src={IMG} alt="logo" className='footer__logo' />
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
-        <li><a href="#about">Acerca de mi</a></li>
-        <li><a href="#experience">Experiencia</a></li>
-        <li><a href="#portfolio">Portafolio</a></li>
-        <li><a href="#testimonials">Recomendaciones</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#about">{t("footer.link1")}</a></li>
+        <li><a href="#experience">{t("footer.link2")}</a></li>
+        <li><a href="#portfolio">{t("footer.link3")}</a></li>
+        <li><a href="#testimonials">{t("footer.link4")}</a></li>
+        <li><a href="#contact">{t("footer.link5")}</a></li>
       </ul>
 
       <div className="footer__socials">
@@ -26,7 +30,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Desarrollado por JhoskarT, todos los derechos reservados.</small>
+        <small>{t("footer.copy")}</small>
       </div>
     </footer>
   )

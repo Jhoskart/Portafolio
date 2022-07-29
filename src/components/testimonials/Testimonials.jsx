@@ -9,6 +9,7 @@ import IMG4 from '../../assets/Miguel.jpeg'
 import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useTranslation } from 'react-i18next'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -16,10 +17,12 @@ import 'swiper/css/pagination';
 
 
 const Testimonials = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
    <section id='testimonials'>
-    <h5>Referencias</h5>
-    <h2>Recomendaciones</h2>
+    <h5>{t("references.review")}</h5>
+    <h2>{t("references.recom")}</h2>
 
     <Swiper className="container testimonials__container"
       // install Swiper modules
@@ -47,9 +50,7 @@ const Testimonials = () => {
         </div>
         <h5>Tomas Ledesma</h5>
           <small className='client__review'>
-          Jhoskar es un excelente compañero, sabe desenvolverse en el Backend y en el Frontend,
-          conoce muy en la lógica de ambos sectores. Luego de compartir equipo con él puedo decir que maneja una buena comunicación dentro del equipo,
-          le gusta aportar ideas, investigar nuevas tecnologías y ser pro-activo
+            {t("references.text1")}
           </small>
       </SwiperSlide>
       <SwiperSlide className='testimonial'>
@@ -58,10 +59,7 @@ const Testimonials = () => {
         </div>
         <h5>Jessica Longo</h5>
           <small className='client__review'>
-          Jhoskar es un excelente programador, tiene una increíble capacidad para resolver problemas y explicarlos sencillamente y con rapidez.
-          Al mismo tiempo fomenta la construcción de buenas prácticas en su entorno. 
-          Destacó su habilidad de trabajar en equipo y brindar ayuda a quien lo necesite, 
-          con su humildad, humanidad y respeto característicos.
+            {t("references.text2")}
           </small>
       </SwiperSlide>
       <SwiperSlide className='testimonial'>
@@ -70,9 +68,7 @@ const Testimonials = () => {
         </div>
         <h5>Miguel Tovar</h5>
           <small className='client__review'>
-            Jhoskar fue una persona comprometida con el proyecto buscando dar lo mejor de sí. Sabe trabajar en equipo, colaborando, comunicando bien sus ideas y siempre mostrándose empático con sus compañeros. 
-            Fue de mucho aporte. con su iniciativa, para el equipo,
-            tanto en el frontend como en el backend. un gusto trabajar con él.
+            {t("references.text3")}
           </small>
       </SwiperSlide>
     </Swiper>

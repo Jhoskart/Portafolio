@@ -5,9 +5,9 @@ nav {
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left: 51.5%;
+    left: 50%;
     transform: translate(-50%);
-    bottom: 2rem;
+    bottom: 1rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
@@ -27,7 +27,7 @@ nav a:hover {
     background: var(--color-primary);
 }
 
-nav a.active {
+.active {
     background: linear-gradient(var(--color-primary), transparent);
     color: var(--color-white);
 }
