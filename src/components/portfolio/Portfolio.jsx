@@ -4,6 +4,7 @@ import IMG1 from '../../assets/PsicoApp.jpg';
 import IMG2 from '../../assets/pokemonapp.jpg';
 import IMG3 from '../../assets/movieapp.jpg';
 import IMG4 from '../../assets/weatherapp.jpg';
+import IMG5 from '../../assets/design.jpg';
 import { useTranslation } from 'react-i18next'
 
 
@@ -24,6 +25,16 @@ const Portfolio = () => {
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jhoskart/PF-psicoApp" className='btn ' target='_blank'>Github</a>
             <a href="https://psico-app.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>
+          </div>
+        </article>
+        <article className='portfolio__item '>
+          <div className="portfolio__item-image grande">
+            <img src={IMG5} alt="landgin3d" className='grande'/>
+          </div>
+          <h3>{t("portfolio.pro3")}</h3>
+          <div className='portfolio__item-cta '>
+            <a href="https://github.com/Jhoskart/curso3d" className='btn ' target='_blank'>Github</a>
+            <a href="https://3design-three.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>
           </div>
         </article>
         <article className='portfolio__item '>
