@@ -5,6 +5,7 @@ import IMG2 from '../../assets/pokemonapp.jpg';
 import IMG3 from '../../assets/movieapp.jpg';
 import IMG4 from '../../assets/weatherapp.jpg';
 import IMG5 from '../../assets/design.jpg';
+import IMG6 from '../../assets/tabla.jpg';
 import { useTranslation } from 'react-i18next'
 
 
@@ -65,6 +66,15 @@ const Portfolio = () => {
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jhoskart/Project-Weather" className='btn ' target='_blank'>Github</a>
             {/* <a href="https://github.com/" className='btn btn-primary' target="_blank">Live Demo</a> */}
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="tablapoke" className='grande'/>
+          </div>
+          <h3>{t("portfolio.pro4")}</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/Jhoskart/Tabla-Pokemon" className='btn ' target='_blank'>Github</a>
           </div>
         </article>
       </div>

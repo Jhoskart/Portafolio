@@ -50,7 +50,8 @@
         "port": "Portafolio",
         "pro1": "Proyecto Psicoapp",
         "pro2": "Proyecto Pokemon",
-        "pro3": "Landing 3D"
+        "pro3": "Landing 3D",
+        "pro4": "Poketabla Dinamica"
     },
     "references":{
         "review": "Referencias",

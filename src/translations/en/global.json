@@ -50,7 +50,8 @@
         "port": "Portfolio",
         "pro1": "Psicoapp Project",
         "pro2": "Pokemon Project",
-        "pro3": "Landing 3D"
+        "pro3": "Landing 3D",
+        "pro4": "Dinamic PokeTable"
     },
     "references":{
         "review": "Reviews from Teammates",
