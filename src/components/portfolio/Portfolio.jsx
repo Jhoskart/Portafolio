@@ -53,7 +53,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG7} alt="tablapoke" className='grande'/>
           </div>
-          <h3>App Cursos</h3>
+          <h3>Cursos app</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jhoskart/Cursos-Project" className='btn ' target='_blank'>Github</a>
             <a href="https://cursos-six.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>
