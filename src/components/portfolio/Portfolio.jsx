@@ -6,6 +6,7 @@ import IMG3 from '../../assets/movieapp.jpg';
 import IMG4 from '../../assets/weatherapp.jpg';
 import IMG5 from '../../assets/design.jpg';
 import IMG6 from '../../assets/tabla.jpg';
+import IMG7 from '../../assets/cursos.jpg';
 import { useTranslation } from 'react-i18next'
 
 
@@ -75,6 +76,16 @@ const Portfolio = () => {
           <h3>{t("portfolio.pro4")}</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jhoskart/Tabla-Pokemon" className='btn ' target='_blank'>Github</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="tablapoke" className='grande'/>
+          </div>
+          <h3>App Cursos</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/Jhoskart/Cursos-Project" className='btn ' target='_blank'>Github</a>
+            <a href="https://cursos-six.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>
           </div>
         </article>
       </div>
