@@ -7,6 +7,8 @@ import IMG4 from '../../assets/weatherapp.jpg';
 import IMG5 from '../../assets/design.jpg';
 import IMG6 from '../../assets/tabla.jpg';
 import IMG7 from '../../assets/cursos.jpg';
+import IMG8 from '../../assets/android.png';
+import IMG9 from '../../assets/ios.png';
 import { useTranslation } from 'react-i18next'
 
 
@@ -59,6 +61,15 @@ const Portfolio = () => {
             <a href="https://cursos-six.vercel.app/" className='btn btn-primary' target="_blank">Deploy</a>
           </div>
         </article>
+        <article className='portfolio__item '>
+          <div className="portfolio__item-image grande">
+            <img src={IMG9} alt="calculadoraIOS" className='grande'/>
+          </div>
+          <h3>{t("portfolio.pro5")}</h3>
+          <div className='portfolio__item-cta '>
+            <a href="https://github.com/Jhoskart/Calculadora-IOS" className='btn ' target='_blank'>Github</a>
+          </div>
+        </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image grande">
             <img src={IMG3} alt="movieapp" className='grande'/>
@@ -86,6 +97,15 @@ const Portfolio = () => {
           <h3>{t("portfolio.pro4")}</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jhoskart/Tabla-Pokemon" className='btn ' target='_blank'>Github</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG8} alt="clock app" className='grande'/>
+          </div>
+          <h3>Android Clock App</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/Jhoskart/Clock-app" className='btn ' target='_blank'>Github</a>
           </div>
         </article>
       </div>

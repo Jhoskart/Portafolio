@@ -51,7 +51,8 @@
         "pro1": "Psicoapp Project",
         "pro2": "Pokemon Project",
         "pro3": "Landing 3D",
-        "pro4": "Dinamic PokeTable"
+        "pro4": "Dinamic PokeTable",
+        "pro5": "IOS Calculator"
     },
     "references":{
         "review": "Reviews from Teammates",
