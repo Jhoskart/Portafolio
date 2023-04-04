@@ -10,12 +10,12 @@
         "conoceme": "Conoce un poco",
         "acerca": "Acerca de mí",
         "exp": "Experiencia",
-        "cuant": "1+ años",
+        "cuant": "2+ años",
         "idioma": "Inglés",
         "nivel": "B1 Intermedio",
         "pro": "Proyectos",
-        "cuantos": "5+ proyectos completados",
-        "textolargo": "Soy un apasionado por la tecnologia y el mundo IT💻, entusiasta de las diferentes metodologias de aprendizaje aplicables para el crecimiento personal y profesional, y de impulsar el desarrollo de la creatividad como herramienta de trabajo.🤹 Me encanta desarrollar tanto en el front como en el back, trabajar en equipo y buscar la mejora continua.",
+        "cuantos": "20+ proyectos completados",
+        "textolargo": "Soy psicólogo, informático, desarrollador y amante de la tecnologia💻 Especializado en el desarrollo full stack el cual he estado desempeñando en el ultimo año para diferentes empresas en donde he podido crecer y obtener multiples experiencias con diferentes tecnologias y dentro de mis preferidas se encuentran ReactJS y ASP.NET. Actualmente sigo desarrollando mi potencial y habilidades, y continuamente emprendo diferentes retos y proyectos en mi ambito laboral.",
         "accion": "Hablemos"
     },
     "tecnologies":{
@@ -34,10 +34,11 @@
         "serv4": "Animaciones y efectos 2D",
         "title2": "Desarrollo Web",
         "serv5": "Desarrollo de 'Single Page Applications' con React y Redux",
-        "serv6": "Desarrollo de aplicaciones con NodeJS y Express",
+        "serv6": "Desarrollo de API's con ASP.NET Core",
+        "serv65": "Desarrollo de API's con NodeJS y Express",
         "serv7": "Aplicaciones que sean escalables y sean multiplataforma",
-        "serv8": "Algoritmos de busqueda de almacenamiento de datos con Sequelize y PostgreSQL",
-        "serv9": "Base de datos relacionales con MySQL y PostgreSQL",
+        "serv8": "Base de datos no relacionales con MongoDB",
+        "serv9": "Base de datos relacionales con Entity Framewor, MySQL y PostgreSQL",
         "title3": "Creacion de contenido",
         "serv10": "Creacion de contenido para redes sociales",
         "serv11": "Creacion de contenido para blogs",
@@ -52,7 +53,11 @@
         "pro2": "Proyecto Pokemon",
         "pro3": "Landing 3D",
         "pro4": "Poketabla Dinamica",
-        "pro5": "Calculadora IOS"
+        "pro5": "Calculadora IOS",
+        "pro6": "Nova App Gestion de Personal",
+        "pro7": "E8Tienda ecommerce",
+        "pro8": "Marketing del Futuro",
+        "pro9": "NeoGenTech"
     },
     "references":{
         "review": "Referencias",

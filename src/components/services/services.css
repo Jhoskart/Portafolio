@@ -1,6 +1,6 @@
 .services__container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem
 }
 
@@ -19,10 +19,10 @@
 }
 
 .service__head {
-   background: #ff7b00;
-   padding: 2rem;
-   border-radius: 0 0 2rem 2rem;
-   box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
+    background: #F4F4F9;
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
 }
 
 .service__head h3 {

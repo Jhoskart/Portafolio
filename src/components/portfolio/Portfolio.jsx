@@ -9,6 +9,10 @@ import IMG6 from '../../assets/tabla.jpg';
 import IMG7 from '../../assets/cursos.jpg';
 import IMG8 from '../../assets/android.png';
 import IMG9 from '../../assets/ios.png';
+import IMG10 from '../../assets/nova2.png';
+import IMG11 from '../../assets/E8Tienda.png';
+import IMG12 from '../../assets/mkt.png';
+import IMG13 from '../../assets/neogentech.png';
 import { useTranslation } from 'react-i18next'
 
 
@@ -22,7 +26,43 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
+          <div className="portfolio__item-image grande">
+            <img src={IMG10} alt="Nova" />
+          </div>
+          <h3>{t("portfolio.pro6")}</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://nova.jorgegas.cl" className='btn btn-primary' target="_blank">Web</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image grande">
+            <img src={IMG11} alt="E8tienda" />
+          </div>
+          <h3>{t("portfolio.pro7")}</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://e8tienda.cl" className='btn btn-primary' target="_blank">Web</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image grande">
+            <img src={IMG12} alt="mkt" />
+          </div>
+          <h3>{t("portfolio.pro8")}</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://mktdelfuturo.com/" className='btn btn-primary' target="_blank">Web</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image grande">
+            <img src={IMG13} alt="neogentech" />
+          </div>
+          <h3>{t("portfolio.pro9")}</h3>
+          <div className='portfolio__item-cta'>
+            <a href="https://neogen.tech/" className='btn btn-primary' target="_blank">Web</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image grande">
             <img src={IMG1} alt="PsicoApp" />
           </div>
           <h3>{t("portfolio.pro1")}</h3>

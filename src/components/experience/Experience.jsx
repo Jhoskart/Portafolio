@@ -38,14 +38,7 @@ const Experience = () => {
           <article className='experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon"/>
             <div>
-              <h4>Redux Toolkit</h4>
-              <small className="text-light">Avanzado</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className="experience__details-icon"/>
-            <div>
-              <h4>Tailwind</h4>
+              <h4>Typescript</h4>
               <small className="text-light">Experimentado</small>
             </div>
           </article>
@@ -53,6 +46,13 @@ const Experience = () => {
             <BsFillPatchCheckFill className="experience__details-icon"/>
             <div>
               <h4>React</h4>
+              <small className="text-light">Avanzado</small>
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon"/>
+            <div>
+              <h4>Redux</h4>
               <small className="text-light">Avanzado</small>
             </div>
           </article>
@@ -81,28 +81,28 @@ const Experience = () => {
           <article className='experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon"/>
             <div>
-              <h4>Sequelize</h4>
+              <h4>ASP.NET</h4>
               <small className="text-light">Avanzado</small>
             </div>
           </article>
           <article className='experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon"/>
             <div>
-              <h4>PostgreSQL</h4>
+              <h4>Entity Framework</h4>
               <small className="text-light">Experimentado</small>
             </div>
           </article>
           <article className='experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon"/>
             <div>
-              <h4>SQL</h4>
+              <h4>SQL Server</h4>
               <small className="text-light">Basico</small>
             </div>
           </article>
           <article className='experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon"/>
             <div>
-              <h4>JsonWebToken</h4>
+              <h4>PosgreSQL</h4>
               <small className="text-light">Experimentado</small>
             </div>
           </article>

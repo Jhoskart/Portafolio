@@ -69,6 +69,12 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
+                {t("services.serv65")}
+              </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>
                 {t("services.serv7")}
               </p>
             </li>
@@ -89,7 +95,7 @@ const Services = () => {
 
         {/* END OF DESARROLLO WEB */}
 
-        <article className='service'>
+        {/* <article className='service'>
           <div className='service__head'>
             <h3>{t("services.title3")}</h3>
           </div>
@@ -126,7 +132,7 @@ const Services = () => {
               </p>
             </li>
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
   )

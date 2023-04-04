@@ -10,12 +10,12 @@
         "conoceme": "Get To Know",
         "acerca": "About me",
         "exp": "Experience",
-        "cuant": "1+ years",
+        "cuant": "2+ years",
         "idioma": "English",
         "nivel": "B1 Intermediate",
         "pro": "Projects",
-        "cuantos": "5+ completed",
-        "textolargo": "I am passionate about technology and the IT world💻, enthusiastic about the different applicable learning methodologies for personal and professional growth, and about promoting the development of creativity as a work tool.🤹 I love developing both at the front and at the the back, work as a team and seek continuous improvement.",
+        "cuantos": "20+ completed",
+        "textolargo": "I am a psychologist, computer scientist, developer and technology lover💻 Specialized in full stack development which I have been working on in the last year for different companies where I have been able to grow and obtain multiple experiences with different technologies and among my favorites are ReactJS and ASP.NET. Currently I continue to develop my potential and skills, and I continually undertake different challenges and projects in my work environment.",
         "accion": "Let's talk"
     },
     "tecnologies":{
@@ -34,10 +34,11 @@
         "serv4": "2D animations and effects",
         "title2": "Web development",
         "serv5": "Development of 'Single Page Applications' with React and Redux",
-        "serv6": "Application development with NodeJS and Express.",
+        "serv6": "Application development with ASP.NET Core",
+        "serv65": "Application development with NodeJS and Express",
         "serv7": "Applications that are scalable and cross-platform",
-        "serv8": "Search algorithms and data storage with Sequelize and PostgreSQL",
-        "serv9": "Relational database with MySQl and PostgreSQL",
+        "serv8": "No SQL database with MongoDB",
+        "serv9": "Relational database with Entity Framework, MySQl and PostgreSQL",
         "title3": "Content creation",
         "serv10": "Creation of content for social networks",
         "serv11": "Creation of content for blogs",
@@ -52,7 +53,11 @@
         "pro2": "Pokemon Project",
         "pro3": "Landing 3D",
         "pro4": "Dinamic PokeTable",
-        "pro5": "IOS Calculator"
+        "pro5": "IOS Calculator",
+        "pro6": "Personnel management Nova App",
+        "pro7": "E8Tienda ecommerce",
+        "pro8": "Marketing del Futuro",
+        "pro9": "NeoGenTech"
     },
     "references":{
         "review": "Reviews from Teammates",
