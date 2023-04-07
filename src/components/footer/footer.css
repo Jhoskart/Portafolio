@@ -11,9 +11,8 @@ footer a {
 }
 
 .footer__logo{
-    margin-bottom: 2rem;
-    width: 20rem;
-    margin-left: 38rem;
+    width: 22rem;
+    margin: 0 auto 3rem ;
 }
 
 .permalinks{
@@ -64,18 +63,25 @@ footer a {
     .footer__logo{
         margin: auto;
     }
- }
+}
 
- @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .footer__logo{
         margin: auto
     }
- }
+}
 
- @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .footer__logo{
         margin: auto
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .footer__logo{
+        width: 22rem;
+        
     }
 }
 

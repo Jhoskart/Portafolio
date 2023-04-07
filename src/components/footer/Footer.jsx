@@ -3,7 +3,7 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
-import IMG from '../../assets/logote.webp'
+import IMG from '../../assets/logo3.png'
 import { useTranslation } from 'react-i18next'
 
 
